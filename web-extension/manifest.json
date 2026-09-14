@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Starlink Column for Google Flights",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Adds a Starlink Wi-Fi status badge to each result on Google Flights, based on publicly reported airline rollout status.",
   "icons": {
     "16": "images/icon-16.png",

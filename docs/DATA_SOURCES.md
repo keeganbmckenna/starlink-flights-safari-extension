@@ -27,6 +27,20 @@ especially the `installing` and `announced` entries, which change quickly.
 - Qatar Airways, Air France, Lufthansa Group and WestJet status per aggregated
   2026 airline-Wi-Fi guides (upgradedpoints.com, mappr.co, pointalize.com).
 
+## Correction (2026-09-14)
+
+Arajet and Aero were originally listed as `fleetwide` ("fully installed per
+public reporting"), but that reporting turned out to just be the airlines'
+own marketing claims. Independent tracking
+([Arajet](https://www.starlinkflights.com/airlines/dm),
+[Aero](https://www.starlinkflights.com/airlines/xtl)) shows 0 of the claimed
+aircraft independently confirmed equipped for either airline, and classifies
+both as "Announced / Pre-Deployment". Downgraded both to `announced` to
+match. This is a reminder that an airline's own installation claim isn't
+sufficient sourcing on its own for the `fleetwide` tier - prefer sources with
+independent verification (sightings, tail-number tracking) for that tier,
+especially for smaller/newer carriers with less press scrutiny.
+
 ## Known limitation
 
 Within an "installing" airline, the badge cannot tell you whether the

@@ -20,7 +20,7 @@
 //                   (Airlines not in this list also fall back to "unknown".)
 
 (function (global) {
-  const LAST_UPDATED = "2026-09-13";
+  const LAST_UPDATED = "2026-09-14";
 
   // Each entry: canonical name + aliases as they might appear in Google
   // Flights result rows (airline name text, marketing carrier names, etc).
@@ -47,13 +47,13 @@
     },
     {
       names: ["Arajet"],
-      status: "fleetwide",
-      note: "Fully installed per public reporting.",
+      status: "announced",
+      note: "Arajet claims Starlink on 10 of 17 aircraft, but this is unverified by independent trackers - treat as pre-deployment, not confirmed.",
     },
     {
       names: ["Aero"],
-      status: "fleetwide",
-      note: "Fully installed per public reporting.",
+      status: "announced",
+      note: "Aero claims Starlink on all 10 of its aircraft, but this is unverified by independent trackers - treat as pre-deployment, not confirmed.",
     },
     {
       names: ["United", "United Airlines"],
