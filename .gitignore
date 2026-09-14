@@ -1,0 +1,9 @@
+# Generated Xcode project (created by scripts/build-xcode-project.sh)
+/xcode/
+
+# Xcode / macOS cruft
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/

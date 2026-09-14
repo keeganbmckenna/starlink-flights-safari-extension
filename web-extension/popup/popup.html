@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Starlink Column</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Starlink Column for Google Flights</h1>
+    <p>
+      Badges appear on the right edge of each result at
+      <a href="https://www.google.com/travel/flights" target="_blank" rel="noopener">google.com/travel/flights</a>.
+    </p>
+    <ul class="legend">
+      <li><span class="dot dot--fleetwide"></span> Starlink &mdash; installed fleet-wide</li>
+      <li><span class="dot dot--installing"></span> Starlink (installing) &mdash; rolling out now</li>
+      <li><span class="dot dot--announced"></span> Starlink (announced) &mdash; committed, not yet installing</li>
+      <li><span class="dot dot--other"></span> No Starlink &mdash; different provider (e.g. Amazon Kuiper)</li>
+      <li><span class="dot dot--unknown"></span> No Starlink data &mdash; airline not in our dataset yet</li>
+    </ul>
+    <p class="lastUpdated">Data last updated: <span id="lastUpdated">-</span></p>
+    <p class="footnote">
+      Manually curated from public airline announcements &mdash; not live
+      per-flight or per-tail data. See the project's
+      <code>docs/DATA_SOURCES.md</code> for sources.
+    </p>
+    <script src="../data/starlink-airlines.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
